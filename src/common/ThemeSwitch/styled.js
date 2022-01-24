@@ -15,3 +15,8 @@ export const Button = styled.button`
   color: inherit;
   outline-offset: 8px;
 `;
+export const Text = styled.span`
+  font-size: 12px;
+  text-transform:uppercase;
+  f
+`;
