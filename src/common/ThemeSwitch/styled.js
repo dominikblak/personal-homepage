@@ -17,6 +17,18 @@ export const Button = styled.button`
 `;
 export const Text = styled.span`
   font-size: 12px;
-  text-transform:uppercase;
-  f
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 12px;
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    display: none;
+  }
+`;
+export const Box = styled.span`
+  background: ${({ theme }) => theme.colors.themeSwitch.background};
+  border: 1px solid;
+  padding: 3px;
+  border-radius: 12px;
+  width: 48px;
+  display: flex;
 `;
