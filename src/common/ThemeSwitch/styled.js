@@ -32,3 +32,19 @@ export const Box = styled.span`
   width: 48px;
   display: flex;
 `;
+
+export const IconWrapper = styled.span`
+  background: currnetColor;
+  padding: 3px;
+  border-radius: 50%;
+  display: flex;
+  transition: transform 0.3s;
+  ${({ moveToRight }) =>
+    moveToRight &&
+    css`
+      transform: translateX(20px);
+    `}
+`;
+export const Icon = styled(SunIcon)`
+  color: ${({ theme }) => theme.colors.themeSwitch.icon};
+`;
