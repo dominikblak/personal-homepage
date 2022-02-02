@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ButtonLink = styled.a`
-  color: inherit;
   text-decoration: none;
   padding: 12px 16px;
   font-weight: 600;
