@@ -4,7 +4,7 @@ import { email } from "../email";
 
 export const MainInfromation = () => (
   <Wrapper>
-    <Avatar src={dominikBlakProfile} />
+    <Avatar src={dominikBlakProfile} alt="Dominik Blak" />
     <div>
       <ThisIs>This is</ThisIs>
       <Name>Dominik Blak</Name>
