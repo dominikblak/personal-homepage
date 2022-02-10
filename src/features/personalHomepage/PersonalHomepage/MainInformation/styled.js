@@ -60,10 +60,6 @@ export const Summary = styled.p`
   }
 `;
 
-export const Icon = styled.img`
-  margin-right: 4px;
-`;
-
 export const StyledButtonLink = styled(ButtonLink)`
   display: inline-flex;
   align-items: center;
