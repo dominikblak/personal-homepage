@@ -31,3 +31,48 @@ export const ThisIs = styled.div`
   font-weight: bold;
   letter-spacing: initial;
 `;
+
+export const Name = styled.h1`
+  font-size: 38px;
+  font-weight: 900;
+  color: ${({ theme }) => theme.colors.textPrimary};
+  margin: 12px 0 0 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    font-size: 22px;
+    margin-top: 8px;
+  }
+`;
+
+export const Summary = styled.p`
+  font-size: 20px;
+  margin: 36px 0 0 0;
+  line-height: 1.4;
+  max-width: 650px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
+    margin-top: 16px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    font-size: 16px;
+    max-width: 570px;
+  }
+`;
+
+export const Icon = styled.img`
+  margin-right: 4px;
+`;
+
+export const StyledButtonLink = styled(ButtonLink)`
+  display: inline-flex;
+  align-items: center;
+  margin-top: 32px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    margin-top: 24px;
+  }
+`;
+export const ButtonIcon = styled(EnvelopeIcon)`
+  margin-right: 16px;
+`;
