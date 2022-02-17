@@ -23,10 +23,9 @@ export const StyledSpinner = styled(Spinner)`
   margin-top: 48px;
   animation: ${rotate} 1s linear infinite;
   color: ${({ theme }) => theme.colors.primary};
-  height:auto;
+  height: auto;
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-   
     margin-top: 32px;
-    width:60px;
+    width: 60px;
   }
 `;
