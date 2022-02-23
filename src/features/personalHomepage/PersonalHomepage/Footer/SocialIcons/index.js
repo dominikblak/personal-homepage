@@ -1,7 +1,7 @@
 import { socials } from "./socials";
 import { Item, Link, List } from "./styled";
 
-export const SocaolIcons = () => (
+export const SocialIcons = () => (
   <List>
     {socials.map(({ name, url, Icon }) => (
       <Item key={name}>
