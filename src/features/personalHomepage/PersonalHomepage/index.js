@@ -19,7 +19,7 @@ export const PersonalHomepage = () => (
             My skillset includes <Icon src={toolsIcon} alt="" />
           </>
         }
-        sills={skills}
+        skills={skills}
       />
       <Skills
         title={
@@ -27,7 +27,7 @@ export const PersonalHomepage = () => (
             What I want to learn next <Icon src={rocketIcon} alt="" />
           </>
         }
-        sills={nextSkills}
+        skills={nextSkills}
       />
       <Portfolio />
     </main>
