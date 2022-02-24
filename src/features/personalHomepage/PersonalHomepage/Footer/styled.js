@@ -12,7 +12,7 @@ export const LetsTalk = styled.h2`
   letter-spacing: initial;
   margin: 0;
 `;
-export const Address = styled.address`
+export const Addres = styled.address`
   font-style: unset;
 `;
 export const EmailWrapper = styled.div`

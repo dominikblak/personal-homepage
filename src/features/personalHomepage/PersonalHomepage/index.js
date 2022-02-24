@@ -2,7 +2,7 @@ import { MainInformation } from "./MainInformation";
 import { Skills } from "./Skills";
 import { Container, Icon } from "./styled";
 import { skills, nextSkills } from "./skillsData";
-import { PortFolio } from "./Portfolio";
+import { Portfolio } from "./Portfolio";
 import { Footer } from "./Footer";
 import { ThemeSwitch } from "../../../common/ThemeSwitch";
 import toolsIcon from "./toolsIcon.png";
@@ -19,7 +19,7 @@ export const PersonalHomepage = () => (
             My skillset includes <Icon src={toolsIcon} alt="" />
           </>
         }
-        sills={skills}
+        skills={skills}
       />
       <Skills
         title={
@@ -27,9 +27,9 @@ export const PersonalHomepage = () => (
             What I want to learn next <Icon src={rocketIcon} alt="" />
           </>
         }
-        sills={nextSkills}
+        skills={nextSkills}
       />
-      <PortFolio />
+      <Portfolio />
     </main>
     <Footer />
   </Container>
