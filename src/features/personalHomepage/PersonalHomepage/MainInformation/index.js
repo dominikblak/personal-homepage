@@ -2,7 +2,7 @@ import dominikBlakProfile from "./profile.jpg";
 import { Avatar, StyledButtonLink, ButtonIcon, Name, Summary, ThisIs, Wrapper } from "./styled";
 import { email } from "../email";
 
-export const MainInfromation = () => (
+export const MainInformation = () => (
   <Wrapper>
     <Avatar src={dominikBlakProfile} alt="Dominik Blak" />
     <div>

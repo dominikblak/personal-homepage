@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const personalHomepageSlice = createSlice({
+const personalHomePageSlice = createSlice({
   name: "personalHomepage",
   initialState: {
     respositories: null,
@@ -21,10 +21,10 @@ const personalHomepageSlice = createSlice({
     }),
   },
 });
-export const { fetchRepositories, fetchRepositoriesSuccess, fetchRepositoriesError } = personalHomepageSlice.actions;
+export const { fetchRepositories, fetchRepositoriesSuccess, fetchRepositoriesError } = personalHomePageSlice.actions;
 
 export const selectPersonalHomepageState = (state) => state.personalHomepage;
 export const selectRepositories = (state) => selectPersonalHomepageState(state).respositories;
 export const selectRepositoriesStatus = (state) => selectPersonalHomepageState(state).status;
 
-export default personalHomepageSlice.reducer;
+export default personalHomePageSlice.reducer;
