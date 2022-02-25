@@ -34,7 +34,7 @@ export const Box = styled.span`
 `;
 
 export const IconWrapper = styled.span`
-  background: currnetColor;
+  background: currentColor;
   padding: 3px;
   border-radius: 50%;
   display: flex;
