@@ -3,7 +3,7 @@ const colorNames = {
   white: "#FFFFFF",
   dodgerBlue: "#2188FF",
   slateGray: "#6E7E91",
-  mineShaftLighter: "rgba(54, 54, 54, 0.72)",
+  mineShaftLighter: "#313131",
   mercury: "#E5E5E5",
   mineShaft: "#252525",
   ironTransparent: "rgba(209, 213, 218, 0.3)",
