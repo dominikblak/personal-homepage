@@ -7,7 +7,7 @@ export const Footer = () => (
     <LetsTalk>Let's talk !</LetsTalk>
     <Addres>
       <EmailWrapper>
-        <EmailLink href={`mailto: ${email}`}>{email}</EmailLink>
+        <EmailLink href={`mailto:${email}`}>{email}</EmailLink>
       </EmailWrapper>
       <Paragraph>
         I’m always open to new projects whenever I have the time. If you have a&nbsp;website, dashboard or mobile app in
