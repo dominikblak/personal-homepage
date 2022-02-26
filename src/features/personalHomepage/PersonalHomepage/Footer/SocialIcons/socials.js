@@ -1,5 +1,5 @@
 import { styleIcon } from "./styled";
-import { ReactComponent as GitHibIcon } from "./icons/github.svg";
+import { ReactComponent as GitHubIcon } from "./icons/github.svg";
 import { ReactComponent as LinkedInIcon } from "./icons/linkedin.svg";
 import { ReactComponent as FacebookIcon } from "./icons/facebook.svg";
 
@@ -7,7 +7,7 @@ export const socials = [
   {
     name: "GitHub",
     url: "https://github.com/dominikblak",
-    Icon: styleIcon(GitHibIcon),
+    Icon: styleIcon(GitHubIcon),
   },
   {
     name: "Facebook",

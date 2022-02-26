@@ -23,7 +23,7 @@ const personalHomePageSlice = createSlice({
 });
 export const { fetchRepositories, fetchRepositoriesSuccess, fetchRepositoriesError } = personalHomePageSlice.actions;
 
-export const selectPersonalHomepageState = (state) => state.personalHomepage;
+const selectPersonalHomepageState = (state) => state.personalHomepage;
 export const selectRepositories = (state) => selectPersonalHomepageState(state).respositories;
 export const selectRepositoriesStatus = (state) => selectPersonalHomepageState(state).status;
 

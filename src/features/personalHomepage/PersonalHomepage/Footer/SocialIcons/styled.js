@@ -12,11 +12,11 @@ export const List = styled.ul`
   }
 `;
 export const Item = styled.li`
-  &:not (:last-child) {
+  &:not(:last-child) {
     margin-right: 24px;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-      margin-top: 16px;
+      margin-right: 16px;
     }
   }
 `;

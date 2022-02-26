@@ -31,8 +31,6 @@ export const themeLight = {
   colors: {
     primary: colorNames.scienceBlue,
     textPrimary: colorNames.mineShaft,
-    boxBackground: colorNames.white,
-    headerLine: colorNames.mercury,
     site: {
       background: colorNames.mercury,
       text: colorNames.slateGray,
@@ -42,6 +40,8 @@ export const themeLight = {
       border: colorNames.ironTransparent,
       shadow: colorNames.anakiwa,
     },
+    boxBackground: colorNames.white,
+    headerLine: colorNames.mercury,
     tile: {
       border: colorNames.porcelain,
       borderHover: colorNames.tropicalBlue,
@@ -59,8 +59,6 @@ export const themeDark = {
   colors: {
     primary: colorNames.dodgerBlue,
     textPrimary: colorNames.white,
-    boxBackground: colorNames.mineShaftLighter,
-    headerLine: colorNames.tundora,
     site: {
       background: colorNames.mineShaft,
       text: colorNames.white,
@@ -70,6 +68,8 @@ export const themeDark = {
       border: colorNames.ironTransparent,
       shadow: colorNames.shipCove,
     },
+    boxBackground: colorNames.mineShaftLighter,
+    headerLine: colorNames.tundora,
     tile: {
       border: colorNames.tundora,
       borderHover: colorNames.blumine,
