@@ -5,14 +5,15 @@ import { ReactComponent as EnvelopeIcon } from "./envelope.svg";
 export const Wrapper = styled.header`
   margin-top: -30px; // that's height of the theme switch
   display: grid;
-  gird-tempalte-columns: auto 1fr;
+  grid-template-columns: auto 1fr;
   grid-gap: 64px;
-  align-items:center @media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
+  align-items: center;
+  @media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
     grid-gap: 32px;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-    gird-tempalte-columns: 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 12px;
   }
 `;
