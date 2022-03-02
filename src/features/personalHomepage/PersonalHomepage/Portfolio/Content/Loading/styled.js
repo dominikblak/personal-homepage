@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
   margin-top: 88px;
   font-size: 20px;
   color: ${({ theme }) => theme.colors.textPrimary};
-  display: gird;
+  display: grid;
   justify-items: center;
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 17px;
