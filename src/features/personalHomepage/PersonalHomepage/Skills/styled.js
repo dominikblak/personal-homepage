@@ -18,12 +18,12 @@ export const List = styled.ul`
   margin-top: 32px;
   padding: 0;
   display: grid;
-  grid-tempalte-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 8px 32px;
   list-style: none;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
-    gird-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
@@ -31,7 +31,7 @@ export const List = styled.ul`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-    gird-template-columns: 1fr;
+    grid-template-columns: 1fr;
     font-size: 14px;
     margin-top: 12px;
   }
