@@ -5,6 +5,7 @@ import { ReactComponent as BulletImage } from "./bullet.svg";
 export const Section = styled.section`
   background: ${({ theme }) => theme.colors.boxBackground};
   padding: 32px;
+  margin-top: 72px;
   box-shadow: ${({ theme }) => theme.boxShadow};
   border-radius: ${({ theme }) => theme.borderRadiusSmall};
 
