@@ -4,7 +4,9 @@
 Dominik Blak : <a href="https://github.com/dominikblak">GitHub</a>
 
 ## 📖 Description :
-My virtual business card. The page contains my projects downloaded from GitHub, and my contact details. Dark mode available.
+My virtual business card. The page contains my projects downloaded from GitHub, and my contact details. Dark mode available.<br/><br/>
+
+<img src="./public/DemoAnimation.gif" alt="demo_animation">
 
 ### 🚀 Demo :
 [Personal-homepage](https://dominikblak.github.io/Gallows/Wisielec.html)
