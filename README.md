@@ -9,7 +9,7 @@ My virtual business card. The page contains my projects downloaded from GitHub, 
 <img src="./public/DemoAnimation.gif" alt="demo_animation">
 
 ### 🚀 Demo :
-[Personal-homepage](https://dominikblak.github.io/Gallows/Wisielec.html)
+[Personal-homepage](https://dominikblak.github.io/personal-homepage/)
 
 #### 🧰 Technology :
 - HTML
