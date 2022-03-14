@@ -1,3 +1,31 @@
+# 🧑‍💻Personal-homepage
+
+# 👨‍💻 Author :
+Dominik Blak : <a href="https://github.com/dominikblak">GitHub</a>
+
+## 📖 Description :
+My virtual business card. The page contains my projects downloaded from GitHub, and my contact details. Dark mode available.
+
+### 🚀 Demo :
+[Personal-homepage](https://dominikblak.github.io/Gallows/Wisielec.html)
+
+#### 🧰 Technology :
+- HTML
+- CSS
+- React JS
+- Styled-components
+- Flex
+- Grid
+- Media queries
+- Creat-react-app
+- React - Redux
+- React - Toolkit
+- Redux Saga
+- Axios
+- GIT
+- githubPages
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
