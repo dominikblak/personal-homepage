@@ -3,13 +3,13 @@
 # 👨‍💻 Author :
 Dominik Blak : <a href="https://github.com/dominikblak">GitHub</a>
 
-## 📖 Description :
+## 🚀 Demo :
+[Personal-homepage](https://dominikblak.github.io/personal-homepage/)
+
+### 📖 Description :
 My virtual business card. The page contains my projects downloaded from GitHub, and my contact details. Dark mode available.<br/><br/>
 
 <img src="./public/DemoAnimation.gif" alt="demo_animation">
-
-### 🚀 Demo :
-[Personal-homepage](https://dominikblak.github.io/personal-homepage/)
 
 #### 🧰 Technology :
 - HTML
