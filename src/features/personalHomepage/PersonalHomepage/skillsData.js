@@ -25,4 +25,4 @@ export const skills = [
   "CSS BEM convention",
 ];
 
-export const nextSkills = ["React Native", "JS classes", "Node.js", "TypeScript", "React Context", "Unit testing", ""];
+export const nextSkills = ["React Native", "JS classes", "Node.js", "TypeScript", "React Context"];
