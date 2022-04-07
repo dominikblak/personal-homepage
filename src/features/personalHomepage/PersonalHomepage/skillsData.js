@@ -22,7 +22,7 @@ export const skills = [
   "CSS Grid",
   "Trello",
   "Teamwork",
-  "CSS BEM convetion",
+  "CSS BEM convention",
 ];
 
-export const nextSkills = ["React Native", "JS classes", "Node.js", "TypeScript", "React Context"];
+export const nextSkills = ["React Native", "JS classes", "Node.js", "TypeScript", "React Context", "Unit testing", ""];
