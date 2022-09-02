@@ -1,5 +1,5 @@
 import { takeLatest, call, put, delay } from "redux-saga/effects";
-import { fetchRepositories, fetchRepositoriesSuccess, fetchRepositoriesError } from "./personalHomepageSlice";
+import { fetchRepositories, fetchRepositoriesSuccess, fetchRepositoriesError } from "./personalHomePageSlice";
 import { getRepositories } from "./personalHomepageAPI";
 
 const loadingDelay = 2_000;
